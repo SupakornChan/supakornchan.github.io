@@ -1,52 +1,92 @@
-<!DOCTYPE html>
 <html>
 <head>
+<script src="https://use.fontawesome.com/e7c39939ee.js"></script>
+</head>
 <style>
+
 body {
-    margin: 0;
+  margin: 0;
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 500px;
-    overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+
+  height: 500px;
+  overflow: auto;
 }
 
 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 li a.active {
-    background-color: blue;
-    color: yellow;
+  background-color: blue;
+  color: yellow;
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
+
+.bg{
+
+  background-image: url(picture/z6gCFAz.png);
+  background-size: 2500px 1500px;
+}
+footer{
+
+  background-color: #1976D2;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.center{
+  text-align: center;
+}
+
+
 </style>
-</head>
-<body>
+<header>
+  <img src="picture/header-man.jpg" width="100%">
+  <ul>
+    <li><a class="active" href="#home">หน้าแรก</a></li>
+    <li><a href="resume.html">ประวัติส่วนตัว</a></li>
+    <li><a href="study.html">ประวัติการศึกษา</a></li>
+    <li><a href="cartoon.html">การ์ตูนที่ชอบ</a></li>
+    <li><a href="movie.html">ภาพยนตร์ที่ชอบ</a></li>
+    <li><a href="etc.html">ดาวน์โหลดไฟล์</a></li>
+  </ul>
 
-<ul>
-  <li><a class="active" href="#home">หน้าแรก</a></li>
-  <li><a href="resume.html">ประวัติส่วนตัว</a></li>
-  <li><a href="study.html">ประวัติการศึกษา</a></li>
-  <li><a href="cartoon.html">การ์ตูนที่ชอบ</a><li>
-  <li><a href="movie.html">ภาพยนตร์ที่ชอบ</a><li>
-  <li><a href="etc.html">ดาวน์โหลดไฟล์</a><li>
-</ul>
+</header>
+<body class="bg ">
 
 
 
+<footer>
+
+<div class="center">
+  <p>  ภาควิชาวิศวกรรมคอมพิวเตอร์ </p>
+  <p> วิชา CPE499 HTML</p>
+
+  <i class="fa fa-facebook-official" aria-hidden="true" style="padding-right:5px"></i>
+  <i class="fa fa-envelope-o" aria-hidden="true" style="padding-right:5px"></i>
+  Tel.02-0000000
+</div>
+
+
+
+</footer>
 </body>
+
+
 </html>
