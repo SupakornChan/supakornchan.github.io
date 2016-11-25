@@ -17,10 +17,28 @@
 
   </head>
   <body>
-    <p id="p1">
-      <h1>Download</h1>
-      <h3>ดาวน์โหลด ไฟล์ .zip และ .rar</h3>
-     <button><a href="#">Download</a></button><br>
+    <h1>Download</h1>
+    <h3>ดาวน์โหลด ไฟล์ .zip และ .rar</h3>
+
+    <div id="dv"></div>
+
+<script>
+var t = 10;
+var wait = function() {
+  if(t > 0) {
+     var str = "download please wait:" + t + "second(s)";
+     document.getElementById("dv").innerHTML = str;
+     t--;
+   }
+   else {
+     var str = "<button><a href=#>download</a></button>";
+     document.getElementById("dv").innerHTML = str;
+     return;
+   }
+ }
+ setInterval(wait,1000);
+</script>
+
 
      <h1>Download for Githup</h1>
      <a href="#">link download for githup</a>
