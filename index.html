@@ -23,7 +23,7 @@ ul {
 li a {
   display: block;
   color: #000;
-  padding: 8px 16px;
+  padding: 12px 20px;
   text-decoration: none;
 }
 
@@ -53,11 +53,21 @@ footer{
 .center{
   text-align: center;
 }
+ #aside{width: 150px;}
+ #center {
+   display: block;
+   margin: 0 auto;
 
+ }
 
 </style>
+<body class="bg ">
+
 <header>
   <img src="picture/header-man.jpg" width="100%">
+<table>
+  <tr>
+    <th>
   <ul>
     <li><a class="active" href="#home">หน้าแรก</a></li>
     <li><a href="resume.html">ประวัติส่วนตัว</a></li>
@@ -66,12 +76,19 @@ footer{
     <li><a href="movie.html">ภาพยนตร์ที่ชอบ</a></li>
     <li><a href="etc.html">ดาวน์โหลดไฟล์</a></li>
   </ul>
-
+</th>
+<th style="width:100%;">
+  <h1 class="center">แนะนำตัว</h1>
+<video id="center" src="video/video-1480162657.mp4" width="550px" height="450px" poster="picture/123456.jpg"
+   preload="auto" controls>
+</video>
+</th>
+</tr>
+</table>
+<h3 class="center">นาย ศุภกร จันทร์แพทย์รักษ์  รหัส 5506571<br>
+ วิชา CPE499 (HTML) สาขา วิศวกรรมคอมพิวเตอร์</h3>
 </header>
-<body class="bg ">
-
-
-
+<br>
 <footer>
 
 <div class="center">
@@ -87,6 +104,5 @@ footer{
 
 </footer>
 </body>
-
 
 </html>
